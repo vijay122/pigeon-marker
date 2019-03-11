@@ -20,7 +20,7 @@
     "start:inferno": "BABEL_ENV=inferno ./node_modules/.bin/webpack-dev-server --history-api-fallback --hot --host 0.0.0.0 --port 4040",
     "build": "npm run build:demo && npm run build:lib",
     "build:demo": "npm run build:demo:react && npm run build:demo:inferno",
-    "build:demo:react": "BABEL_ENV=react node build.js production",
+    "buildIt": "BABEL_ENV=react node build.js production",
     "build:demo:inferno": "BABEL_ENV=inferno node build.js production",
     "build:lib": "npm run build:lib:react && npm run build:lib:inferno && npm run build:lib:images",
     "build:lib:inferno": "BABEL_ENV=inferno ./node_modules/.bin/babel src --out-dir lib/inferno && ./node_modules/.bin/babel --no-babelrc --plugins minify-dead-code-elimination lib/inferno --out-dir lib/inferno",
