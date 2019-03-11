@@ -1,10 +1,10 @@
 import { React, Inferno, Component } from './infact'
 import PropTypes from 'prop-types'
 
-import pin from './img/pin.png'
-import pinRetina from './img/pin@2x.png'
-import pinHover from './img/pin-hover.png'
-import pinHoverRetina from './img/pin-hover@2x.png'
+import pin from './img/flag-grey.png'
+import pinRetina from './img/flag-grey.png'
+import pinHover from './img/flag-grey.png'
+import pinHoverRetina from './img/flag-grey.png'
 
 const imageOffset = {
   left: 15,
